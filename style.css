@@ -95,7 +95,7 @@ a {
 }
 
 #head-text {
-    margin: 65px 10px 10px 10px;
+    margin: 45px 10px 10px 10px;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, .3);
     padding: 10px;
@@ -120,7 +120,7 @@ a {
 
 #loading-holder {
     background-color: black;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -148,22 +148,16 @@ a {
     cursor: pointer;
 }
 
-.home-list {
-    display: inline-block;
+#home-category-list-holder {
+    display: none;
     background: rgba(0, 0, 0, .3);
-    padding: 70px;
+    margin: 10px;
+    padding: 30px;
     border-radius: 5px;
-    width: 33.1%;
+    font-size: 150px;
     text-align: center;
-    box-sizing: border-box;
-    font-size: 30px;
-    transition: 500ms;
-}
 
-.home-list:hover {
-    background: dodgerblue;
 }
-
 
 .holder {
     font-size: 35px;
@@ -192,4 +186,40 @@ a {
 .list:hover {
     background-color: #464665;
 
+}
+
+.home-list {
+    display: inline-block;
+    background: rgba(0, 0, 0, .3);
+    padding: 70px;
+    border-radius: 5px;
+    width: 33.1%;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 30px;
+    transition: 500ms;
+}
+
+.home-list:hover {
+    background: dodgerblue;
+}
+
+
+.category-list-holder {
+    display: inline-block;
+    background: rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    width: 16%;
+    box-sizing: border-box;
+    transition: 500ms;
+    margin: 10px -20px;
+
+}
+
+.category-list-holder div {
+    padding: 18px;
+}
+
+.category-list-holder:hover {
+    background: dodgerblue;
 }

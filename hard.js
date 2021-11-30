@@ -26,6 +26,14 @@ $(document).ready(function () {
         } else
             $('#categories').slideToggle(1000);
     });
+
+    $('#list-categories').click(function () {
+        if ($('#home-category-list-holder').css('display') == 'none') {
+            $('#home-category-list-holder').slideToggle(1000);
+        } else {
+            $('#home-category-list-holder').slideToggle(1000);
+        }
+    });
 });
 
 var timeoutID;
