@@ -1,0 +1,16 @@
+{
+  "name": "week-15-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "boxicons": "^2.0.9",
+    "jquery": "^3.6.0",
+    "particles.js": "^2.0.0"
+  }
+}
