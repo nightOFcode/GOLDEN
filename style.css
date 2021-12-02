@@ -159,6 +159,31 @@ a {
 
 }
 
+#login-holder {
+    display: block;
+    background: rgba(0, 0, 0, .3);
+    margin: 45px 10px 10px 10px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+#login-holder h1 {
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+#login-text {
+    margin: 10px;
+}
+
+
+#sign-text {
+    margin: 10px;
+}
+
 .holder {
     font-size: 35px;
     padding: 20px 10px;
@@ -222,4 +247,16 @@ a {
 
 .category-list-holder:hover {
     background: dodgerblue;
+}
+
+.login {
+    background: rgba(0, 0, 0, .3);
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    width: 800px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 20px;
+
 }
