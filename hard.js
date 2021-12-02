@@ -34,6 +34,25 @@ $(document).ready(function () {
             $('#home-category-list-holder').fadeToggle(1000);
         }
     });
+
+    $('#login-button').click(function () {
+        if ($('#sign-content-holder').css('display') == 'block') {
+
+            $('#sign-content-holder').hide(1000);
+            $('#login-content-holder').slideToggle(1000);
+        } else {
+            $('#login-content-holder').slideToggle(1000);
+        }
+    });
+
+    $('#sign-button').click(function () {
+        if ($("#login-content-holder").css('display') == 'block') {
+            $('#login-content-holder').hide(1000);
+            $('#sign-content-holder').slideToggle(1000);
+        } else {
+            $('#sign-content-holder').slideToggle(1000);
+        }
+    });
 });
 
 var timeoutID;

@@ -166,6 +166,7 @@ a {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
+    caret-color: transparent;
 
 }
 
@@ -182,6 +183,56 @@ a {
 
 #sign-text {
     margin: 10px;
+}
+
+#login-content-holder {
+    background: rgba(0, 0, 0, .3);
+    margin: 10px;
+    border-radius: 5px;
+    display: none;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 50%;
+    vertical-align: top;
+    height: 580px;
+    font-size: 20px;
+    caret-color: transparent;
+}
+
+#l-holder {
+    margin: 10px;
+    background: rgba(0, 0, 0, .3);
+    padding: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+
+#content-login-button {
+    margin-top: 230px;
+}
+
+
+#sign-content-holder {
+    background: rgba(0, 0, 0, .3);
+    margin: 10px;
+    border-radius: 5px;
+    display: none;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 50%;
+    height: 580px;
+    font-size: 20px;
+    caret-color: transparent;
+}
+
+#s-holder {
+    margin: 10px;
+    background: rgba(0, 0, 0, .3);
+    padding: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+
 }
 
 .holder {
@@ -259,4 +310,53 @@ a {
     box-sizing: border-box;
     font-size: 20px;
 
+}
+
+.login-button {
+    background: #1b1b31;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    width: 200px;
+
+}
+
+.login-button:hover {
+    background: dodgerblue;
+    transition: 500ms;
+}
+
+.login-input {
+    padding: 20px;
+
+}
+
+.login-input div {
+    background: #26315c;
+    margin: 2px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.login-input input {
+    padding: 5px;
+    width: 300px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    caret-color: black;
+}
+
+.content-button-holder {
+    text-align: center;
+}
+
+.center-login {
+    display: block;
+    width: 50%;
+    margin-left: 684px;
 }
