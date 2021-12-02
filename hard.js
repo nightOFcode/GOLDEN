@@ -29,9 +29,9 @@ $(document).ready(function () {
 
     $('#list-categories').click(function () {
         if ($('#home-category-list-holder').css('display') == 'none') {
-            $('#home-category-list-holder').slideToggle(1000);
+            $('#home-category-list-holder').fadeToggle(1000);
         } else {
-            $('#home-category-list-holder').slideToggle(1000);
+            $('#home-category-list-holder').fadeToggle(1000);
         }
     });
 });
