@@ -3,7 +3,7 @@ var dis = $("#sidebar").is(':visible')
 
 $(document).ready(function () {
     $('#sidebar-button').click(function () {
-        if ($('#sidebar').css('display') == 'none') {
+        if ($('#sidebar').css('display') === 'none') {
             // $('#sidebar').css('display', 'block');
             $('#sidebar').slideToggle(1000);
             $('#sidebar-button').css('left', '230px');
@@ -13,7 +13,7 @@ $(document).ready(function () {
             $('#sidebar-button').css('left', '10px');
         }
 
-        if (dis == 'false') {
+        if (dis === 'false') {
             $('#categories').show();
         } else {
             $('#categories').hide();
@@ -21,14 +21,14 @@ $(document).ready(function () {
     });
 
     $('#category-btn').click(function () {
-        if ($('#categories').css('display') == 'none') {
+        if ($('#categories').css('display') === 'none') {
             $('#categories').slideToggle(1000);
         } else
             $('#categories').slideToggle(1000);
     });
 
     $('#list-categories').click(function () {
-        if ($('#home-category-list-holder').css('display') == 'none') {
+        if ($('#home-category-list-holder').css('display') === 'none') {
             $('#home-category-list-holder').fadeToggle(1000);
         } else {
             $('#home-category-list-holder').fadeToggle(1000);
@@ -36,7 +36,7 @@ $(document).ready(function () {
     });
 
     $('#login-button').click(function () {
-        if ($('#sign-content-holder').css('display') == 'block') {
+        if ($('#sign-content-holder').css('display') === 'block') {
 
             $('#sign-content-holder').hide(1000);
             $('#login-content-holder').slideToggle(1000);
@@ -46,7 +46,7 @@ $(document).ready(function () {
     });
 
     $('#sign-button').click(function () {
-        if ($("#login-content-holder").css('display') == 'block') {
+        if ($("#login-content-holder").css('display') === 'block') {
             $('#login-content-holder').hide(1000);
             $('#sign-content-holder').slideToggle(1000);
         } else {
