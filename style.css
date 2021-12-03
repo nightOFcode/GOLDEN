@@ -243,6 +243,7 @@ a {
     transition: 500ms;
     cursor: pointer;
     caret-color: transparent;
+    display: block;
 
 }
 
@@ -257,6 +258,7 @@ a {
     margin: 10px;
     border-radius: 5px;
     transition: 500ms;
+    display: block;
 }
 
 .list:hover {

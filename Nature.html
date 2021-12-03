@@ -1,122 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="particle.css">
-  <link rel="stylesheet" href="node_modules/boxicons/css/boxicons.min.css">
-  <script src="node_modules/jquery/dist/jquery.min.js"></script>
-  <script src="node_modules/particles.js/particles.js"></script>
-  <script src="hard.js"></script>
-  <title>WALLCRAFT/Nature</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="particle.css">
+    <link rel="stylesheet" href="node_modules/boxicons/css/boxicons.min.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/particles.js/particles.js"></script>
+    <script src="hard.js"></script>
+    <title>WALLCRAFT/Nature</title>
 </head>
 <body>
 <div id="particles-js"></div>
 
 <!-- stats - count particles -->
 <div class="count-particles">
-  <span class="js-count-particles">--</span> particles
+    <span class="js-count-particles">--</span> particles
 </div>
 <nav id="navbar">
-  <div id="sidebar-button">
-    <i class='bx bx-menu'></i>
-  </div>
-  <div id="navbar-logo">
-    WALLCRAFT
-  </div>
-  <div id="navbar-search">
-    <input type="text" aria-label="..." placeholder="search...">
-    <button type="button">
-      submit
-    </button>
-  </div>
+    <div id="sidebar-button">
+        <i class='bx bx-menu'></i>
+    </div>
+    <div id="navbar-logo">
+        WALLCRAFT
+    </div>
+    <div id="navbar-search">
+        <input type="text" aria-label="..." placeholder="search...">
+        <button type="button">
+            submit
+        </button>
+    </div>
 </nav>
 <nav id="sidebar">
-  <ul>
-    <li class="holder">
-      <a href="index.html">
+    <a href="index.html" class="holder">
         <i class='bx bxs-home' id="home-icon"></i>
         Home
-      </a>
-    </li>
-    <li class="holder">
-      <a href="Contact.html">
+    </a>
+    <a href="Contact.html" class="holder">
         <i class='bx bxs-detail'></i>
         Contact
-      </a>
-    </li>
-    <li class="holder" id="category-btn">
-      <i class='bx bxs-category'></i>
-      Categories
-    </li>
-    <li>
-      <div>
-        <ul id="categories">
-          <li class="list">
-            <a href="Cars.html">
-              <i class='bx bxs-car'></i>
-              Cars
-            </a>
-          </li>
-          <li class="list">
-            <a href="Nature.html">
-              <i class='bx bxs-tree'></i>
-              Nature
-            </a>
-          </li>
-          <li class="list">
-            <a href="Sea.html">
-              <i class='bx bx-water'></i>
-              Sea
-            </a>
-          </li>
-          <li class="list">
-            <a href="Neon.html">
-              <i class='bx bx-meh-blank'></i>
-              Neon
-            </a>
-          </li>
-          <li class="list">
-            <a href="Text.html">
-              <i class='bx bx-text'></i>
-              Text
-            </a>
-          </li>
-          <li class="list">
-            <a href="Trucks.html">
-              <i class='bx bxs-truck'></i>
-              Trucks
-            </a>
-          </li>
-        </ul>
-      </div>
-    </li>
-    <li class="holder" id="login">
-      <a href="Login.html">
+    </a>
+    <div class="holder" id="category-btn">
+        <i class='bx bxs-category'></i>
+        Categories
+    </div>
+    <div id="categories">
+        <a href="Cars.html" class="list">
+            <i class='bx bxs-car'></i>
+            Cars
+        </a>
+        <a href="Nature.html" class="list">
+            <i class='bx bxs-tree'></i>
+            Nature
+        </a>
+        <a href="Sea.html" class="list">
+            <i class='bx bx-water'></i>
+            Sea
+        </a>
+        <a href="Neon.html" class="list">
+            <i class='bx bx-meh-blank'></i>
+            Neon
+        </a>
+        <a href="Text.html" class="list">
+            <i class='bx bx-text'></i>
+            Text
+        </a>
+        <a href="Trucks.html" class="list">
+            <i class='bx bxs-truck'></i>
+            Trucks
+        </a>
+    </div>
+    <a href="Login.html" class="holder">
         <i class='bx bx-log-in'></i>
         Login
-      </a>
-    </li>
-  </ul>
+    </a>
 </nav>
 <div id="head-text">
-  <h1>
-    Home
-  </h1>
-  <p>
-    <b>HELLO</b>
-    <br>
-    Welcome to our site,
-    <br>
-    in here we try to show best wallpapers existed in the world,
-    <br>
-    so feel free to surf and explore our site and tel your opinions in the comment section,
-    <br>
-    we use your opinions to improve our site.
-  </p>
+    <h1>
+        Home
+    </h1>
+    <p>
+        <b>HELLO</b>
+        <br>
+        Welcome to our site,
+        <br>
+        in here we try to show best wallpapers existed in the world,
+        <br>
+        so feel free to surf and explore our site and tel your opinions in the comment section,
+        <br>
+        we use your opinions to improve our site.
+    </p>
 </div>
 <div id="loading-holder">
-  <img src="giphy.gif" alt=".." id="loading">
+    <img src="giphy.gif" alt=".." id="loading">
 </div>
 <script src="particle.js"></script>
 </body>
