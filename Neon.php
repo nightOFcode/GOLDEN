@@ -5,75 +5,51 @@ include 'inc/header.php'
 ?>
 <body>
 <?php
-include 'inc/sidebar.php'
+include 'inc/navbar.php'
 ?>
 <nav id="sidebar">
-    <ul>
-        <li class="holder">
-            <a href="index.php">
-                <i class='bx bxs-home' id="home-icon"></i>
-                Home
-            </a>
-        </li>
-        <li class="holder">
-            <a href="Contact.php">
-                <i class='bx bxs-detail'></i>
-                Contact
-            </a>
-        </li>
-        <li class="holder" id="category-btn">
-            <i class='bx bxs-category'></i>
-            Categories
-        </li>
-        <li>
-            <div>
-                <ul id="categories">
-                    <li class="list">
-                        <a href="Cars.php">
-                            <i class='bx bxs-car'></i>
-                            Cars
-                        </a>
-                    </li>
-                    <li class="list">
-                        <a href="Nature.php">
-                            <i class='bx bxs-tree'></i>
-                            Nature
-                        </a>
-                    </li>
-                    <li class="list">
-                        <a href="Sea.php">
-                            <i class='bx bx-water'></i>
-                            Sea
-                        </a>
-                    </li>
-                    <li class="list">
-                        <a href="Neon.php">
-                            <i class='bx bx-meh-blank'></i>
-                            Neon
-                        </a>
-                    </li>
-                    <li class="list">
-                        <a href="Text.php">
-                            <i class='bx bx-text'></i>
-                            Text
-                        </a>
-                    </li>
-                    <li class="list">
-                        <a href="Trucks.php">
-                            <i class='bx bxs-truck'></i>
-                            Trucks
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </li>
-        <li class="holder" id="login">
-            <a href="Login.php">
-                <i class='bx bx-log-in'></i>
-                Login
-            </a>
-        </li>
-    </ul>
+    <a href="index.php" class="holder">
+        <i class='bx bxs-home' id="home-icon"></i>
+        Home
+    </a>
+    <a href="Contact.php" class="holder">
+        <i class='bx bxs-detail'></i>
+        Contact
+    </a>
+    <div class="holder" id="category-btn">
+        <i class='bx bxs-category'></i>
+        Categories
+    </div>
+    <div id="categories">
+        <a href="Cars.php" class="list">
+            <i class='bx bxs-car'></i>
+            Cars
+        </a>
+        <a href="Nature.php" class="list">
+            <i class='bx bxs-tree'></i>
+            Nature
+        </a>
+        <a href="Sea.php" class="list">
+            <i class='bx bx-water'></i>
+            Sea
+        </a>
+        <a href="Neon.php" class="list">
+            <i class='bx bx-meh-blank'></i>
+            Neon
+        </a>
+        <a href="Text.php" class="list">
+            <i class='bx bx-text'></i>
+            Text
+        </a>
+        <a href="Trucks.php" class="list">
+            <i class='bx bxs-truck'></i>
+            Trucks
+        </a>
+    </div>
+    <a href="Login.php" class="holder">
+        <i class='bx bx-log-in'></i>
+        Login
+    </a>
 </nav>
 <div id="head-text">
     <h1>

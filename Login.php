@@ -5,7 +5,7 @@
 ?>
 <body>
 <?php
-include 'inc/sidebar.php'
+include 'inc/navbar.php'
 ?>
 <nav id="sidebar">
     <a href="index.php" class="holder">
