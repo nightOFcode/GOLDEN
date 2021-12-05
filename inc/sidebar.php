@@ -1,7 +1,3 @@
-<?php
-include 'inc/style.php'
-?>
-
 <nav id="sidebar">
     <a href="index.php" class="holder">
         <i class='bx bxs-home' id="home-icon"></i>
