@@ -235,6 +235,48 @@ a {
 
 }
 
+#contact-holder {
+    display: block;
+    margin: 45px 10px 10px 10px;
+    background: rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    caret-color: transparent;
+
+}
+
+#content-message {
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 800px;
+    margin: 0 200px;
+}
+
+#content-message div {
+    background: #26315c;
+    margin: 2px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#message {
+    width: 700px;
+    border-radius: 5px;
+    height: 100px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    padding: 10px;
+
+}
+
+#send-button {
+    margin-top: 10px;
+}
+
 .holder {
     font-size: 35px;
     padding: 20px 10px;
@@ -362,3 +404,33 @@ a {
     width: 50%;
     margin-left: 684px;
 }
+
+.contact-input {
+    padding: 20px;
+    text-align: justify;
+    display: inline-block;
+    width: 400px;
+    margin: 0 200px;
+}
+
+
+.contact-input input{
+    padding: 5px;
+    width: 300px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    caret-color: black;
+}
+
+.contact-input div {
+    background: #26315c;
+    margin: 2px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+
+
