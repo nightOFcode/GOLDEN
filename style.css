@@ -235,6 +235,50 @@ a {
 
 }
 
+
+#contact-holder {
+    display: block;
+    margin: 45px 10px 10px 10px;
+    background: rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    caret-color: transparent;
+
+}
+
+#content-message {
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 800px;
+    margin: 0 200px;
+}
+
+#content-message div {
+    background: #26315c;
+    margin: 2px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#message {
+    width: 700px;
+    border-radius: 5px;
+    height: 100px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+
+}
+
+#send-button {
+    margin-top: 10px;
+}
+
+
 .holder {
     font-size: 35px;
     padding: 20px 10px;
@@ -365,46 +409,33 @@ a {
     margin-left: 684px;
 }
 
-/*particles*/
 
-
-/* ---- reset ---- */
-
-canvas {
-    display: block;
-    vertical-align: bottom;
+.contact-input {
+    padding: 20px;
+    text-align: justify;
+    display: inline-block;
+    width: 400px;
+    margin: 0 200px;
 }
 
-/* ---- particles.js container ---- */
 
-#particles-js {
-    position: fixed;
-    z-index: -100;
-    width: 100%;
-    height: 100%;
-    background-color: dodgerblue;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
+.contact-input input{
+    padding: 5px;
+    width: 300px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    caret-color: black;
 }
 
-/* ---- stats.js ---- */
+.contact-input div {
+    background: #26315c;
+    margin: 2px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
 
-
-.js-count-particles {
-    font-size: 1.1em;
 }
 
-#stats,
-.count-particles {
-    -webkit-user-select: none;
-}
 
-#stats {
-    border-radius: 3px 3px 0 0;
-    overflow: hidden;
-}
 
-.count-particles {
-    border-radius: 0 0 3px 3px;
-}

@@ -28,6 +28,34 @@ include 'inc/sidebar.php';
         we use your opinions to improve our site.
     </p>
 </div>
+<div id="contact-holder">
+    <h1>
+        Contact Us
+    </h1>
+    <div>
+        <div class="contact-input">
+            Name:
+            <div>
+                <input type="text" aria-label="..." placeholder="Name..">
+            </div>
+        </div>
+        <div class="contact-input">
+            Email:
+            <div>
+                <input type="email" aria-label="..." placeholder="Email">
+            </div>
+        </div>
+        <div id="content-message">
+            Message:
+            <div>
+                <textarea id="message" aria-label="..." placeholder="&nbsp;message..."></textarea>
+            </div>
+            <button class="login-button" id="send-button">
+                Send
+            </button>
+        </div>
+    </div>
+</div>
 <div id="loading-holder">
     <img src="giphy.gif" alt=".." id="loading">
 </div>
