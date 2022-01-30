@@ -14,7 +14,7 @@ include 'inc/sidebar.php';
 
 <div id="login-holder">
     <h1>
-        Login
+        Login & Signup
     </h1>
     <div id="login-area" class="login">
         <b>Login</b>
@@ -42,58 +42,62 @@ include 'inc/sidebar.php';
 <div class="center-login">
     <div id="login-content-holder">
         <div id="l-holder">
-            <div class="login-input">
-                username:
-                <div>
-                    <input type="text" aria-label="..." id="login-username">
+            <form action="" method="post">
+                <div class="login-input">
+                    username:
+                    <div>
+                        <input type="text" aria-label="..." id="login-username" required>
+                    </div>
                 </div>
-            </div>
-            <div class="login-input">
-                password:
-                <div>
-                    <input type="text" aria-label="..." id="login-password">
+                <div class="login-input">
+                    password:
+                    <div>
+                        <input type="text" aria-label="..." id="login-password" required>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="content-button-holder">
-            <button id="content-login-button" class="login-button">
-                << Login >>
-            </button>
+                <div class="content-button-holder">
+                    <button id="content-login-button" class="login-button">
+                        << Login >>
+                    </button>
+                </div>
+            </form>
         </div>
     </div>
 </div>
 <div class="center-login">
     <div id="sign-content-holder">
         <div id="s-holder">
-            <div class="login-input">
-                Name:
-                <div>
-                    <input type="text" aria-label="..." id="sign-name">
+            <form action="">
+                <div class="login-input">
+                    Name:
+                    <div>
+                        <input type="text" aria-label="..." id="sign-name" required minlength="3">
+                    </div>
                 </div>
-            </div>
-            <div class="login-input">
-                email:
-                <div>
-                    <input type="text" aria-label="..." id="sign-email">
+                <div class="login-input">
+                    email:
+                    <div>
+                        <input type="text" aria-label="..." id="sign-email" required>
+                    </div>
                 </div>
-            </div>
-            <div class="login-input">
-                username:
-                <div>
-                    <input type="text" aria-label="..." id="sign-username">
+                <div class="login-input">
+                    username:
+                    <div>
+                        <input type="text" aria-label="..." id="sign-username" required minlength="3">
+                    </div>
                 </div>
-            </div>
-            <div class="login-input">
-                password:
-                <div>
-                    <input type="text" aria-label="..." id="sign-password">
+                <div class="login-input">
+                    password:
+                    <div>
+                        <input type="text" aria-label="..." id="sign-password" required>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="content-button-holder">
-            <button id="content-sign-button" class="login-button">
-                << Sign up >>
-            </button>
+                <div class="content-button-holder">
+                    <button id="content-sign-button" class="login-button">
+                        << Sign up >>
+                    </button>
+                </div>
+            </form>
         </div>
     </div>
     <div id="loading-holder">

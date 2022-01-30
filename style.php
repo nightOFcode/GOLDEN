@@ -96,7 +96,7 @@
     }
 
     #head-text {
-        margin: 45px 10px 10px 10px;
+        margin: 35px 10px 10px 10px;
         border-radius: 5px;
         background-color: rgba(0, 0, 0, .3);
         padding: 10px;
@@ -163,7 +163,7 @@
     #login-holder {
         display: block;
         background: rgba(0, 0, 0, .3);
-        margin: 45px 10px 10px 10px;
+        margin: 35px 10px 10px 10px;
         border-radius: 5px;
         padding: 10px;
         text-align: center;
@@ -195,7 +195,7 @@
         box-sizing: border-box;
         width: 50%;
         vertical-align: top;
-        height: 580px;
+        height: 553px;
         font-size: 20px;
         caret-color: transparent;
     }
@@ -222,7 +222,7 @@
         padding: 10px;
         box-sizing: border-box;
         width: 50%;
-        height: 580px;
+        height: 553px;
         font-size: 20px;
         caret-color: transparent;
     }
@@ -239,7 +239,7 @@
 
     #contact-holder {
         display: block;
-        margin: 45px 10px 10px 10px;
+        margin:35px 10px 10px 10px;
         background: rgba(0, 0, 0, .3);
         border-radius: 5px;
         padding: 10px;
@@ -272,7 +272,7 @@
         border: none;
         font-size: 16px;
         padding: 10px;
-
+        caret-color: black;
     }
 
     #send-button {
@@ -314,7 +314,7 @@
     .home-list {
         display: inline-block;
         background: rgba(0, 0, 0, .3);
-        padding: 70px;
+        padding: 60px;
         border-radius: 5px;
         width: 33.1%;
         text-align: center;
@@ -366,6 +366,7 @@
         font-size: 20px;
         color: white;
         padding: 10px;
+        margin: 5px;
         width: 200px;
         cursor: pointer;
 
