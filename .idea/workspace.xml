@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b0b4b4d2-19f3-4f98-bb86-772ddfdf201f" name="Changes" comment="fix unused link">
+      <change beforePath="$PROJECT_DIR$/Cars.php" beforeDir="false" afterPath="$PROJECT_DIR$/Cars.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/Contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nature.php" beforeDir="false" afterPath="$PROJECT_DIR$/Nature.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neon.php" beforeDir="false" afterPath="$PROJECT_DIR$/Neon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sea.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sea.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text.php" beforeDir="false" afterPath="$PROJECT_DIR$/Text.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trucks.php" beforeDir="false" afterPath="$PROJECT_DIR$/Trucks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/giphy.gif" beforeDir="false" afterPath="$PROJECT_DIR$/giphy.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard.js" beforeDir="false" afterPath="$PROJECT_DIR$/hard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle.css" beforeDir="false" afterPath="$PROJECT_DIR$/particle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/particle.js" beforeDir="false" afterPath="$PROJECT_DIR$/particle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="php" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="21mSv7G9LOrjNFbbTW0V96ZjFx8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/inc" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0b4b4d2-19f3-4f98-bb86-772ddfdf201f" name="Changes" comment="" />
+      <created>1638544996857</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638544996857</updated>
+      <workItem from="1638544997988" duration="819000" />
+      <workItem from="1638622408155" duration="2874000" />
+      <workItem from="1638625295161" duration="39000" />
+      <workItem from="1638625346256" duration="389000" />
+      <workItem from="1638625745735" duration="2146000" />
+      <workItem from="1638627907064" duration="383000" />
+      <workItem from="1638628308913" duration="351000" />
+      <workItem from="1638628673371" duration="4141000" />
+      <workItem from="1638645822027" duration="2210000" />
+      <workItem from="1638648111908" duration="4000" />
+      <workItem from="1638648662998" duration="126000" />
+      <workItem from="1638648904579" duration="66000" />
+      <workItem from="1638648980375" duration="38000" />
+      <workItem from="1638649029977" duration="8000" />
+      <workItem from="1638649048469" duration="40000" />
+      <workItem from="1638649098665" duration="3592000" />
+      <workItem from="1638695548973" duration="1732000" />
+      <workItem from="1638697501905" duration="285000" />
+      <workItem from="1638697797880" duration="3819000" />
+      <workItem from="1638710224996" duration="543000" />
+      <workItem from="1638710779200" duration="3785000" />
+      <workItem from="1639416857364" duration="472000" />
+      <workItem from="1639578575931" duration="40000" />
+      <workItem from="1640104171942" duration="465000" />
+      <workItem from="1640524917915" duration="76000" />
+      <workItem from="1640525846396" duration="1028000" />
+      <workItem from="1640526886789" duration="27000" />
+      <workItem from="1640621570897" duration="78000" />
+      <workItem from="1640720612579" duration="4000" />
+    </task>
+    <task id="LOCAL-00001" summary="php file of the Golden project">
+      <created>1638638448589</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638638448589</updated>
+    </task>
+    <task id="LOCAL-00002" summary="new made navbar file">
+      <created>1638653704883</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638653704883</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixing css problems and ...">
+      <created>1638701125822</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638701125822</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix unused link">
+      <created>1638701184279</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638701184279</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="php file of the Golden project" />
+    <MESSAGE value="new made navbar file" />
+    <MESSAGE value="fixing css problems and ..." />
+    <MESSAGE value="fix unused link" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix unused link" />
+  </component>
+</project>
